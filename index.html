@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Animated Face Component - Vanilla JS</title>
+        <link rel="stylesheet" href="style.css" />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500;600;700&display=swap"
+            rel="stylesheet"
+        />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+        />
+    </head>
+    <body>
+        <div class="container">
+            <!-- Hero Section -->
+            <section class="hero-section" id="hero">
+                <div class="face-container">
+                    <div class="face" id="face">
+                        <div class="eyes-container">
+                            <div class="eye left-eye" id="leftEye"></div>
+                            <div class="eye right-eye" id="rightEye"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="personal-info">
+                   <h1 class="name">Enayet Saidul<span class="blinking-cursor">_</span></h1>
+                    <p class="title">AI Prompt Explorer</p>
+                </div>
+            </section>
+
+            <!-- Footer -->
+            <footer class="footer">
+                <div class="footer-content">
+                    <div class="footer-info">
+                        <p>Social Media Buttons</p>
+                    </div>
+
+                    <div class="social-links">
+                        <a
+                            href="https://facebook.com/official enayet"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            class="social-link"
+                        >
+                            <i class="fab fa-facebook"></i>
+                        </a>
+                        <a
+                            href="https://wa.me/8801935255404"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            class="social-link"
+                        >
+                            <i class="fab fa-whatsapp"></i>
+                        </a>
+                    </div>
+
+                    <div class="copyright">
+                        <p>
+                            &copy; 2026 Enayet Saidul. All rights
+                            reserved.
+                        </p>
+                    </div>
+                </div>
+            </footer>
+
+            <!-- Help Button -->
+            <button class="help-button" id="helpButton">
+                <i class="fas fa-question-circle"></i>
+            </button>
+
+            <!-- Deployment Guide Modal -->
+<div class="modal-overlay" id="modalOverlay">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h3>ki bodda! aare  khujo ni ken?</h3>
+                        <button class="close-button" id="closeButton">
+                            <i class="fas fa-times"></i>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="guide-section">
+                            <h4>aare khuji lav nai, ear ton bala 3 da kota mone rakba</h4>
+                            <ul>
+                                <li>kullu nafsin zaikatul maut</li>
+                                <li>wa mal hayatu dunya illa mata'ul-ghurur</li>
+                                <li>
+                                    shob ki ekhanei bole dibo naki,  deka ole jiggesh kore niyo...
+                        </div>
+                                                   </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script src="script.js"></script>
+    </body>
+</html>
